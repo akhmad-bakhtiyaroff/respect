@@ -527,19 +527,7 @@ header .menu:hover > span{
   }
 }
 
-@media screen and (max-width: 810px) {
-  .page-view .project .man {
-    padding: 493px 0;
-  }
 
-  .page-view .project .man img {
-    width: 400px;
-  }
-
-  .page-view .project:first-child .text.tamam {
-    margin-top: -110px;
-  }
-}
 
 @-webkit-keyframes mask-play {
   from {
