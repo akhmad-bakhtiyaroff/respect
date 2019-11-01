@@ -515,7 +515,7 @@ header .menu:hover > span{
 
 @media screen and (max-width: 730px) {
   .page-view .project .man {
-    padding: 350px 0;
+    padding: 348px 0;
   }
 
   .page-view .project .man img {
@@ -525,6 +525,11 @@ header .menu:hover > span{
   .page-view .project:first-child .text.tamam {
     margin-top: -110px;
   }
+
+  .page-view .project .text .see-more {
+    margin-left: -20px;
+}
+
 }
 
 
@@ -1516,7 +1521,7 @@ footer .back-top{
 .page-view .project .text .see-more {
     font-size: 15px;    
     transform: translateX(20px);
-    margin-left: -40px;
+    
 }
 
 
