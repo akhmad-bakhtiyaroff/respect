@@ -322,6 +322,11 @@ header .menu span:nth-child(2){
   width: 75%;
 }
 
+header .menu span:nth-child(3){
+  margin-top: 4px;
+}
+
+
 header .menu:hover > span{
   width: 100%;
   background: #192dd8;
@@ -445,6 +450,7 @@ header .menu:hover > span{
   cursor: pointer;  
   text-decoration: none;
   margin-top: 20px;
+  margin-left: -40px;
 }
 
 .page-view .project .text .number{
@@ -1522,6 +1528,7 @@ footer .back-top{
 .page-view .project .text .see-more {
     font-size: 15px;    
     transform: translateX(20px);
+    margin-left: -40px;
 }
 
 
