@@ -484,6 +484,7 @@ header .menu:hover > span{
   z-index: 30;
 }
 
+
 @media screen and (max-width: 640px) {
   .page-view .project .text h1 {
     font-size: 36px;
@@ -529,9 +530,26 @@ header .menu:hover > span{
   .page-view .project .text .see-more {
     margin-left: -20px;
 }
-
 }
 
+@media screen and (max-width: 414px) {
+  .page-view .project .man {
+      padding: 417px 0;
+  }
+  }
+
+
+@media screen and (max-width: 375px) {
+.page-view .project .man {
+    padding: 348px 0;
+}
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) {
+  .page-view .project .man {
+    padding: 493px 0;
+}
+}
 
 
 @-webkit-keyframes mask-play {
